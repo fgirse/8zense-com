@@ -177,7 +177,7 @@ const TestimonialCard = ({
           height: BORDER_SIZE,
         }}
       />
-      <img
+      <Image
         src={testimonial.imgSrc}
         alt={`Testimonial image for ${testimonial.by}`}
         className="mb-4 h-14 w-12 bg-neutral-600 object-cover object-top"
