@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import Image from "next/image"
-import Avatar from "@/public/assets/images/avatar-sm-bardot.png"
+import Avatar from "@/public/images/avatar-sm-bardot.png"
 
 export default function ProductCard() {
   return (

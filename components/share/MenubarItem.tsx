@@ -3,14 +3,14 @@
 import Image from "next/image";
 import { useState } from "react";
 
-//import logo from "@/public/assets/images/logo.svg";
+//import logo from "@/public/images/logo.svg";
 import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 
-//import todoImage from "@/public/assets/icons/";
-import calendarImage from "@/public/assets/icons/calendar.svg";
-//import remindersImage from "@/public/assets/icons/icon-reminders.svg";
-//import planningImage from "@/public/assets/icons/icon-planning.svg";
+//import todoImage from "@/public/icons/";
+//import calendarImage from "@/public/icons/calendar.svg";
+//import remindersImage from "@/public/icons/icon-reminders.svg";
+//import planningImage from "@/public/icons/icon-planning.svg";
 
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -67,22 +67,22 @@ const navItems: NavItem[] = [
       {
         label: "Datenschutz",
         link: "#",
-        iconImage: calendarImage
+      
       },
       {
         label: "Cookies",
         link: "#",
-        iconImage: calendarImage
+      
       },
       {
         label: "Rechtliches",
         link: "#",
-        iconImage: calendarImage
+      
       },
       {
         label: "frei",
         link: "#",
-        iconImage: calendarImage
+        
       }
     ]
   },

@@ -1,7 +1,7 @@
 import React from "react";
 import { images } from "@/constants/constants";
-import left from "@/public/assets/images/left.svg";
-import right from "@/public/assets/images/right.svg";
+import left from "@/public/images/left.svg";
+import right from "@/public/images/right.svg";
 import { motion } from "framer-motion";
 import Image from "next/image";
 

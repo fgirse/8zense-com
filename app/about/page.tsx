@@ -1,24 +1,24 @@
 "use client";
 
 import Image from "next/image";
-import LogoEZ from "../../public/assets/images/LogoEZ3.svg";
+import LogoEZ from "../../public/images/LogoEZ3.svg";
 import React from "react";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import Logo01 from "@/public/assets/images/LogoEZ990.svg";
-import Portrait from "@/public/assets/images/CorInterno1.jpg";
-import ArchGrafik from "@/public/assets/images/grafik70.png";
+import Logo01 from "@/public/images/LogoEZ990.svg";
+import Portrait from "@/public/images/CorInterno1.jpg";
+import ArchGrafik from "@/public/images/grafik70.png";
 import "./about.module.css";
 import Tools from "@/components/Illustrationen/Tools";
 import Hook from "@/components/Illustrationen/Hackchen";
-import Arrow from "@/public/assets/images/arrow05.svg";
+import Arrow from "@/public/images/arrow05.svg";
 import { transform } from "next/dist/build/swc";
-import Signature from "@/public/assets/images/arrow02.png";
+import Signature from "@/public/images/arrow02.png";
 import styles from "./about.module.css";
-import Projekt from "@/public/assets/images/Hotel-SaoPaulo.png";
+import Projekt from "@/public/images/Hotel-SaoPaulo.png";
 import Button from "@/components/share/Button";
 import SpringModal from "@/components/share/SpringModal";
-import Portrait01 from "@/public/assets/images/Portrait01.jpeg";
+import Portrait01 from "@/public/images/Portrait01.jpeg";
 
 const page = () => {
   return (
@@ -192,7 +192,7 @@ lg:text-[9rem]"
             <div className="bg-zenseGrey/10 col-span-4 row-span-3 col-start-3 row-start-7">
               <p className="text-xs lg:text-xl leading-3 mt-2 p-1 sm:text-sm">
                 Sie graduierte mit einem Masters Degree am rennomierten Institut
-                für Konstruktions- wissenschaften "Eduardo Torroja" in Spanien.
+                für Konstruktions- wissenschaften &quot;Eduardo Torrojagf fin Spanien.
               </p>
             </div>
             <div className="bg-grey-500 col-span-4 row-start-7 row-span-6 col-start-7 ">

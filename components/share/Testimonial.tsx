@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import Image from "next/image";
-import IlluTestimonial from"@/public/assets/images/illustration.png";
+import IlluTestimonial from"@/public/images/illustration.png";
 
 const CARD_SIZE_LG = 365;
 const CARD_SIZE_SM = 290;
@@ -190,7 +190,7 @@ const TestimonialCard = ({
           isActive ? "text-white" : "text-black"
         }`}
       >
-        "{testimonial.testimonial}"
+        ]&quot;{testimonial.testimonial}&quot;
       </h3>
       <p
         className={`absolute bottom-8 left-8 right-8 mt-2 text-sm italic ${

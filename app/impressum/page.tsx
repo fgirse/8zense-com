@@ -1,22 +1,22 @@
 import Image from "next/image";
-import LogoEZ from "../../public/assets/images/LogoEZ3.svg";
+import LogoEZ from "../../public/images/LogoEZ3.svg";
 import React from "react";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import Logo01 from "@/public/assets/images/LogoEZ990.svg";
-import Portrait from "@/public/assets/images/CorInterno1.jpg";
-import ArchGrafik from "@/public/assets/images/grafik70.png";
+import Logo01 from "@/public/images/LogoEZ990.svg";
+import Portrait from "@/public/images/CorInterno1.jpg";
+import ArchGrafik from "@/public/images/grafik70.png";
 import "./impressum.module.css";
 import Tools from "@/components/Illustrationen/Tools";
 import Hook from "@/components/Illustrationen/Hackchen";
-import Arrow from "@/public/assets/images/arrow05.svg";
+import Arrow from "@/public/images/arrow05.svg";
 import { transform } from "next/dist/build/swc";
-import Signature from "@/public/assets/images/arrow02.png";
+import Signature from "@/public/images/arrow02.png";
 import styles from "./impressum.module.css";
-import Projekt from "@/public/assets/images/Hotel-SaoPaulo.png";
+import Projekt from "@/public/images/Hotel-SaoPaulo.png";
 import Button from "@/components/share/Button";
 import SpringModal from "@/components/share/SpringModal";
-import Portrait01 from "@/public/assets/images/Portrait01.jpeg";
+import Portrait01 from "@/public/images/Portrait01.jpeg";
 
 const page = () => {
   return (

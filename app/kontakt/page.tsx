@@ -3,10 +3,10 @@
 import classes from "./kontakt.module.css";
 import React from "react";
 import Image from "next/image";
-import Logo from "@/public/assets/images/LogoEZ990.svg";
+import Logo from "@/public/images/LogoEZ990.svg";
 import Phone from "@/components/Illustrationen/phone";
 import Email from "@/components/Illustrationen/email";
-import QRCode from "@/public/assets/images/QRCode2.png";
+import QRCode from "@/public/images/QRCode2.png";
 import { Separator } from "@/components/ui/separator";
 const Contact = () => {
   return (

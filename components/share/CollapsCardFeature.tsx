@@ -14,8 +14,8 @@ import {
   FiUpload,
 } from "react-icons/fi";
 import Image from "next/image";
-import NetWorking from'@/public/assets/images/networking.svg'
-import Quality from'@/public/assets/images/quality03.gif';
+import NetWorking from'@/public/images/networking.svg'
+import Quality from'@/public/images/quality03.gif';
 
 
 const CollapseCardFeatures = () => {

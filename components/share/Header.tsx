@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import MenubarItems from "./MenubarItem";
-import Locked from "@/public/assets/images/locked.png";
-import Logo from "@/public/assets/images/LogoEZ990.svg";
+import Locked from "@/public/images/locked.png";
+import Logo from "@/public/images/LogoEZ990.svg";
 import { PropsWithChildren } from "react";
 //import MobileNav from "./MobileNav";
 

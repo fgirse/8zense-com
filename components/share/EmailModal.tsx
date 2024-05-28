@@ -5,7 +5,7 @@ import { Dispatch, SetStateAction, useState } from "react";
 import { FiAlertCircle } from "react-icons/fi";
 import ContactUs from"@/components/share/contact-us";
 import Image from "next/image";
-import Logo from "@/public/assets/images/LogoEZ990.svg"
+import Logo from "@/public//images/LogoEZ900.svg";
 
 const ExampleWrapper = () => {
   const [isOpen, setIsOpen] = useState(false);

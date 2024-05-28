@@ -7,8 +7,8 @@ import { slideIn, staggerContainer, textVariant } from './../../app/utils/motion
 import Link from'next/link'
 import { Button } from "@/components/ui/button"
 import { ClientAnimationWrapper } from './ClientAnimationWrapper';
-import Sideboard from"../../public/assets/images/sideboardobg.png"
-import LogoEZ from"../../public/assets/images/LogoEZ.png"
+import Sideboard from"../../public/images/sideboardobg.png"
+import LogoEZ from"../../public/images/LogoEZ.png"
 
 import React from 'react'
 

@@ -1,7 +1,7 @@
 import { SignIn } from "@clerk/nextjs";
 import React from "react";
 import Image from "next/image";
-import Locked from"../../../../public/assets/images/locked.png";
+import Locked from"../../../../public/images/locked.png";
 
 export default function Page() {
   return (
